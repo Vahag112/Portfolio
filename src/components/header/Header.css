@@ -134,8 +134,8 @@ header {
                     border-bottom: 1px solid gray;
     
                 }
-                li > a >span{
-                    display: flex;
+                li > a > span{
+                    display: flex !important;
                 }
     
                 li:nth-of-type(1) > a{

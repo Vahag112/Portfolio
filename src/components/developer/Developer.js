@@ -4,7 +4,6 @@ import i1 from '../../images/dev1.png'
 import { FaRegEnvelope } from 'react-icons/fa'
 import { SlLocationPin } from 'react-icons/sl'
 import { FiBriefcase, FiDownload } from 'react-icons/fi'
-import { FaLink } from 'react-icons/fa6'
 
 export default function Developer() {
   const skills = ["HTML", "CSS" , "JS", "REACT" , 'NODE', 'EXPRESS', 'MONGODB']
@@ -37,7 +36,7 @@ export default function Developer() {
             <div className="box">
               <h3>Hey <br /> I'm Vahagn,<br /> Full-stack Developer</h3>
               <p>I help business grow by crafting amazing web experiences. If you’re <br /> looking for a developer that likes to get stuff done,</p>
-              <a href="#">let’s talk <div className="circle"><FaRegEnvelope /></div></a>
+              <a href="/">let’s talk <div className="circle"><FaRegEnvelope /></div></a>
             </div>
 
             <div className="detal">

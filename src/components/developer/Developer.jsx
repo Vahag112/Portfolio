@@ -4,6 +4,7 @@ import i1 from '../../images/dev1.png'
 import { FaRegEnvelope } from 'react-icons/fa'
 import { SlLocationPin } from 'react-icons/sl'
 import { FiBriefcase, FiDownload } from 'react-icons/fi'
+import { Typewriter } from 'react-simple-typewriter'
 
 export default function Developer() {
   const skills = ["HTML", "CSS" , "JS", 'TS' , "REACT" , 'NODE', 'EXPRESS', 'MONGODB', 'MONGOOSE']
@@ -34,7 +35,17 @@ export default function Developer() {
           </div>
           <div className="item2">
             <div className="box">
-              <h3>Hey <br /> I'm Vahagn,<br /> Full-stack Developer</h3>
+              <h3>Hey <br /> I'm Vahagn,<br /> 
+              <Typewriter 
+                    words={['Full-stack Developer', 'MERN stack Developer']}
+                    loop={0}
+                    cursor
+                    cursorStyle='|'
+                    typeSpeed={100}
+                    deleteSpeed={70}
+                    delaySpeed={1500}
+                  />
+              </h3>
               <p>I help business grow by crafting amazing web experiences. If you’re <br /> looking for a developer that likes to get stuff done,</p>
               <a href="/">let’s talk <div className="circle"><FaRegEnvelope /></div></a>
             </div>

@@ -171,7 +171,7 @@
                     color: white;
                     font-family: ubuntu;
                     font-weight: 400;
-                    font-size: clamp(37px , 6vw, 64px);
+                    font-size: clamp(37px , 6vw, 58px);
                 }
 
                 p{
@@ -245,6 +245,7 @@
 @media(max-width:1475px){
     .developer > .container > .content{
         flex-wrap: wrap;
+        gap: 110px;
 
         .item2{
             width: 90%;

@@ -1,19 +1,73 @@
 .projects{
-    padding: 60px 0px;
+    padding: 120px 0px;
     background: #1a1e24;
 
     .container{
+
         display: flex;
+        flex-direction: column;
         align-items: center;
         justify-content: center;
-        flex-wrap: wrap;
-        gap: 40px;
+        gap: 16px;
+        
+
+
+         h2 {
+            color: #12F7D6;
+            font-weight: 400;
+            font-size: clamp(45px, 6vw, 64px);
+            font-family: ubuntu;
+            padding-bottom: 16px;
+            border-bottom: 2px solid #12F7D6;
+            position: relative;
+        }
+
+        h2::before,
+        h2::after {
+            content: "";
+            width: 10px;
+            height: 10px;
+            background: #1ff5e1;
+            border-radius: 50%;
+            position: absolute;
+            transform: translateY(-50%);
+            bottom: -10px;
+        }
+
+        h2::before {
+            left: -2px;
+        }
+
+        h2::after {
+            right: -2px;
+        }
+
+        .text{
+        
+            font-family: ibm;
+            font-size: 16px;
+            font-weight: 400;
+            color: white;
+            text-align: center;
+        }
+
+        
+        .content{
+            margin-top: 45px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: wrap;
+            
+           
+            gap: clamp(10px, calc(-27.209px + 4.651vw), 50px);
+        }
 
         .item{
             display: flex;
             flex-direction: column;
             align-items: start;
-            justify-content: center;
+            justify-content: start;
             gap: 20px;
             background: #222831;
             box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.4);
@@ -22,6 +76,10 @@
             position: relative;
             max-width: 360px;
             width: 100%;
+            height: 445px;
+
+
+
             .links{
                 position: absolute;
                 top: 30px;
@@ -54,9 +112,14 @@
             }
 
             img{
-                width: 320px;
+                max-width: 320px;
+                width: 100%;
+                height:232px;
+            border-radius: 10px;
+
+
             }
-            h2, span{
+            h3, span{
                 color: white;
 
             }
@@ -78,4 +141,12 @@
            
         }
     }
+}
+
+
+@media(max-width: 785px){
+.projects > .container > .content{
+    gap: 30px;
+
+}
 }

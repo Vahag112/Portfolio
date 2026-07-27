@@ -3,6 +3,7 @@ import i2 from '../../images/beanscene.png'
 import i3 from '../../images/hosty.png'
 import i4 from '../../images/shop.png'
 import i5 from '../../images/todolist.png'
+import i6 from '../../images/furnitureShop.png'
 import { BsGlobe } from "react-icons/bs";
 import { FaGithub } from "react-icons/fa";
 
@@ -16,6 +17,7 @@ export default function Projects() {
         { img: i2, title: 'BeanScene Website', text: 'An aesthetic, minimalist brand website designed for a coffee shop, featuring a premium UI, clean layouts, and smooth navigation.', linkVercel: 'https://bean-scene-beta.vercel.app/', linkGithub: 'https://github.com/Vahag112/BeanScene', span: ['#react', '#scss'] },
         { img: i5 , title: 'TodoList' , text:'"A full-stack To-Do application built to manage daily tasks efficiently. It features user authentication, task filtering, and a powerful MERN backend for real-time data persistence."', linkGithub: 'https://github.com/Vahag112/To-Do-List',span: ['#react', '#css', '#express', '#mongodb' , '#mongoose'] },
         { img: i3, title: 'Hosty', text: 'A sleek, fully responsive web application tailored for the hospitality and hotel industry.', linkVercel: 'https://hosty-nine.vercel.app/', linkGithub: 'https://github.com/Vahag112/hosty', span: ['#react', '#css'] },
+        { img: i6, title: 'Furniture Shop', text: 'Modern furniture e-commerce application featuring user authentication, shopping cart functionality, and admin product management.', linkGithub: 'https://github.com/Vahag112/FurnitureShop', span: ['#react', '#scss', '#express', '#mongodb', '#mongoose']},
         { img: i4, title: 'Online Shop', text: 'A stylish and fully responsive online storefront crafted for clothing brands.   ', linkVercel: 'https://clothmart-gilt.vercel.app/', linkGithub: 'https://github.com/Vahag112/clothmart', span: ['#javascript', '#css'] }
 
     ]

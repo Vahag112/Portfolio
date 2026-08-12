@@ -7,7 +7,7 @@ import { FiBriefcase, FiDownload } from 'react-icons/fi'
 import { Typewriter } from 'react-simple-typewriter'
 
 export default function Developer() {
-  const skills = ["HTML", "CSS" , "JS", 'TS' , "REACT" , 'NODE', 'EXPRESS', 'MONGODB', 'MONGOOSE']
+  const skills = ["HTML", "CSS" , "JS", 'TS' , "REACT" , 'NODE', 'EXPRESS', 'NEST', 'MONGODB', 'MONGOOSE', "POSTGRESQL", 'PYTHON']
 
   return (
     <div className='developer'>

@@ -54,7 +54,7 @@ export default function Skills() {
           <div className="box">
             <RiComputerLine />
             <p>Web developement</p>
-            <span>HTML·CSS·SCSS·JS·TS <br />REACT·REDUX-TOOLKIT·NODE<br />EXPRESS·MONGODB·MONGOOSE</span>
+            <span>HTML·CSS·SCSS·JS·TS <br />REACT·REDUX-TOOLKIT·NODE<br />EXPRESS·NEST·MONGODB<br />MONGOOSE·POSTGRESQL·PYTHON</span>
           </div>
 
           <div className="box2">

@@ -13,6 +13,9 @@ import { SiTypescript } from "react-icons/si";
 import { IoLogoJavascript } from "react-icons/io";
 import { SiRedux } from "react-icons/si";
 import { FaGitAlt } from "react-icons/fa";
+import { SiNestjs } from "react-icons/si";
+import { SiPostgresql } from "react-icons/si";
+import { AiOutlinePython } from "react-icons/ai";
 
 
 
@@ -29,9 +32,12 @@ export default function Skills() {
     {icon: <FaReact /> , color: '#61DAFB', text: 'React JS' }, 
     {icon: <FaNodeJs /> , color:'#339933', text:'Node JS'},
     {icon: <SiExpress /> , color: 'black', text:'Express JS' },
+    {icon: <SiNestjs />, color: '#E0234E', text:'Nest JS' },
     {icon : <SiMongodb/> , color:'#00ED64' , text: 'MongoDB'},
     {icon: <SiMongoose /> , color: '#880000', text: 'Mongoose'},
+    {icon: <SiPostgresql />, color: '#336791' , text:'PostgreSQL'},
     {icon: <SiRedux /> , color: '#7450B3', text: 'Redux-Toolkit'},
+    {icon: <AiOutlinePython/>, color:'#FFD438', text:'Python' },
     {icon: <FaGitAlt /> , color: '#F24E28', text: 'Git'}
     
 

@@ -36,7 +36,7 @@ export default function Projects() {
                                   {elem.linkVercel && <a href={elem.linkVercel} target="_blank" rel="noreferrer"><button><BsGlobe /></button></a>}  
                                     <a href={elem.linkGithub} target="_blank" rel="noreferrer"><button><FaGithub /></button></a>
                                 </div>
-                                <img src={elem.img} alt="" />
+                                <img src={elem.img} alt="" loading='lazy'/>
                                 <h3>{elem.title}</h3>
                                 <p>{elem.text}</p>
                                 <div className="tools">
